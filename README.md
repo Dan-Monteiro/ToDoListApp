@@ -13,18 +13,17 @@ Project build to fulfill project challenge proposed by [DIO](https://web.digital
 
 ## Screenshots
 
-<img src="https://github.com/Dan-Monteiro/public_images/blob/main/ToDoListApp/empty_screen.PNG" align="left" alt="Main screen with empty list"/>
-<img src="https://github.com/Dan-Monteiro/public_images/blob/main/ToDoListApp/screen_create.PNG" alt="Create task screen"/>
+<img src="https://github.com/Dan-Monteiro/public_images/blob/main/ToDoListApp/empty_screen.PNG" align="left" alt="Main screen with empty list" height="700" width="325"/>
+<img src="https://github.com/Dan-Monteiro/public_images/blob/main/ToDoListApp/screen_create.PNG" alt="Create task screen" height="700" width="325"/>
 
-<img src="https://github.com/Dan-Monteiro/public_images/blob/main/ToDoListApp/screen_create_date_field.PNG" align="left" alt="Create task screen date selection"/>
-<img src="https://github.com/Dan-Monteiro/public_images/blob/main/ToDoListApp/screen_create_hour_field.PNG" alt="Create Task Screen Hour Selection"/>
+<img src="https://github.com/Dan-Monteiro/public_images/blob/main/ToDoListApp/screen_create_date_field.PNG" align="left" alt="Create task screen date selection" height="700" width="325"/>
+<img src="https://github.com/Dan-Monteiro/public_images/blob/main/ToDoListApp/screen_create_hour_field.PNG" alt="Create Task Screen Hour Selection" height="700" width="325"/>
 
+<img src="https://github.com/Dan-Monteiro/public_images/blob/main/ToDoListApp/screen_create_content.PNG" align="left" alt="Create task screen with values" height="700" width="325"/>
+<img src="https://github.com/Dan-Monteiro/public_images/blob/main/ToDoListApp/context_menu.PNG" alt="Main screen with content and menu" height="700" width="325"/>
 
-<img src="https://github.com/Dan-Monteiro/public_images/blob/main/ToDoListApp/screen_create_content.PNG" align="left" alt="Create task screen with values"/>
-<img src="https://github.com/Dan-Monteiro/public_images/blob/main/ToDoListApp/context_menu.PNG" alt="Main screen with content and menu"/>
-
-<img src="https://github.com/Dan-Monteiro/public_images/blob/main/ToDoListApp/Update_screen.PNG" align="left" alt="Update task screen"/>
-<img src="https://github.com/Dan-Monteiro/public_images/blob/main/ToDoListApp/details_screen.PNG" alt="Detail task screen"/>
+<img src="https://github.com/Dan-Monteiro/public_images/blob/main/ToDoListApp/Update_screen.PNG" align="left" alt="Update task screen" height="700" width="325"/>
+<img src="https://github.com/Dan-Monteiro/public_images/blob/main/ToDoListApp/details_screen.PNG" alt="Detail task screen" height="700" width="325"/>
 
 
 
