@@ -4,7 +4,6 @@ import android.app.Activity
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
 import android.view.View
 import android.widget.Toast
 import androidx.activity.viewModels
@@ -67,6 +66,12 @@ class MainActivity : AppCompatActivity() {
                 mainViewModel.deleteTask(it)
             }
         }
+
+        adapter.listenerDetails = {
+            val intent = Intent(this, DetailsActivity::class.java)
+            intent.putExtra(DetailsActivity.TASK_DETAILED, it)
+            startActivity(intent)
+        }
     }
 
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
@@ -74,7 +79,6 @@ class MainActivity : AppCompatActivity() {
         if(requestCode == CREATE_NEW_TASK && resultCode == Activity.RESULT_OK){
             if (data != null) {
                 val task: Task? = data.extras?.getParcelable<Task>(AddTaskActivity.EXTRA_INSERT)
-                Log.e("UP_", task.toString())
                 if (task != null) {
                     mainViewModel.insertTask(task)
                     Toast.makeText(this, "Tarefa criada com sucesso!", Toast.LENGTH_LONG).show()
@@ -83,7 +87,6 @@ class MainActivity : AppCompatActivity() {
         }else if(requestCode == UPDATE_TASK && resultCode == Activity.RESULT_OK){
             if (data != null) {
                 val task: Task? = data.extras?.getParcelable<Task>(AddTaskActivity.EXTRA_UPDATE)
-                Log.e("UP_", task.toString())
                 if (task != null) {
                     mainViewModel.updateTask(task)
                     Toast.makeText(this, "Tarefa atualizada com sucesso!", Toast.LENGTH_LONG).show()

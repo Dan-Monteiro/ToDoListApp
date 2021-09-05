@@ -38,6 +38,7 @@ class AddTaskActivity: AppCompatActivity() {
             binding.tilTitulo.text = it.title
             binding.tilDate.text = it.date
             binding.tilHour.text = it.hour
+            binding.tilObservation.text = it.observation
             setUpdateLabel(it.id)
             isUpdate = true
         }
@@ -90,7 +91,8 @@ class AddTaskActivity: AppCompatActivity() {
                 id = task_id,
                 title = binding.tilTitulo.text,
                 date = binding.tilDate.text,
-                hour = binding.tilHour.text
+                hour = binding.tilHour.text,
+                observation = binding.tilObservation.text
             )
 
             val replyIntent = Intent()

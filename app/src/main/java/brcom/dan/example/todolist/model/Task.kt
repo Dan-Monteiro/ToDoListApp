@@ -12,5 +12,6 @@ data class Task (
     @PrimaryKey(autoGenerate = true) val id: Int = 0,
     @ColumnInfo var title: String,
     @ColumnInfo var date: String,
-    @ColumnInfo var hour: String
+    @ColumnInfo var hour: String,
+    @ColumnInfo var observation: String
 ) : Parcelable

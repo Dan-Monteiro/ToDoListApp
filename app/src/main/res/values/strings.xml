@@ -12,4 +12,6 @@
     <string name="lbl_delete">Deletar</string>
     <string name="lbl_update_task">Atualizar Tarefa</string>
     <string name="lbl_empty_state">Ops! Você ainda não possui\n nenhuma tarefa</string>
+    <string name="lbl_observation">Observação</string>
+    <string name="lbl_detail">Detalhado</string>
 </resources>

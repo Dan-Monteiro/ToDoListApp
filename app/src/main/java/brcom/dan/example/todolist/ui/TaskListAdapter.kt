@@ -14,6 +14,7 @@ class TaskListAdapter: ListAdapter<Task, TaskListAdapter.TaskViewHolder>(DiffCal
 
     var listenerEdit: (Task) -> Unit = {}
     var listenerDelete: (Task) -> Unit = {}
+    var listenerDetails: (Task) -> Unit = {}
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): TaskViewHolder {
         val inflater = LayoutInflater.from(parent.context)
@@ -32,6 +33,9 @@ class TaskListAdapter: ListAdapter<Task, TaskListAdapter.TaskViewHolder>(DiffCal
             binding.tvDateTime.text = displayInfo
             binding.imgOptions.setOnClickListener {
                 showPopUp(item)
+            }
+            binding.itemView.setOnClickListener {
+                listenerDetails(item)
             }
         }
 
